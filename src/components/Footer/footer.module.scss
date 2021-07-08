@@ -1,8 +1,6 @@
 .container {
   position: static;
   position: relative;
-  bottom: 0;
-  vertical-align: sub;
   width: 80%;
   margin: 0 auto;
   padding: 2rem;
@@ -10,9 +8,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
+  .description {
+    line-height: 2rem;
+  }
+
   .links {
-    display: flex;
-    flex-direction: column;
+    ul {
+      list-style: none;
+      color: #c0cfcf;
+
+      li {
+        line-height: 2rem;
+      }
+    }
   }
 }
 .p {

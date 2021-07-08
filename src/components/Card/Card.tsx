@@ -1,6 +1,5 @@
 import { CardAtributes } from "./CardAtributes/CardAtributes";
 import { CardAtributesHorizontal } from "./CardAtributesHorizontal/CardAtributesHorizontal";
-import Apex from "../../../public/assets/apex.png";
 import Admin_1 from "../../../public/assets/admin_1.jpg";
 import Admin_7 from "../../../public/assets/admin_7.jpg";
 import Admin_2 from "../../../public/assets/admin_2.png";
