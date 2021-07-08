@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+
+  .image {
+    image-resolution: initial;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-family: Helvetica, sans-serif;
+
+    color: #366;
+  }
+
+  .children {
+    font-size: 18px;
+
+    color: #666;
+
+    strong {
+      color: #366;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 2rem;
+
+    .image {
+      padding: 20px;
+    }
+  }
+}

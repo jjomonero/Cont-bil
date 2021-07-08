@@ -1,0 +1,54 @@
+.container {
+  width: 2rem;
+  height: 2rem;
+
+  position: fixed;
+  bottom: 3rem;
+  right: -2rem;
+  transition: 0.6s;
+  cursor: pointer;
+
+  strong {
+    position: absolute;
+    bottom: -1rem;
+    right: 2rem;
+    background: #366;
+    color: #fff;
+
+    padding: 5px 14px;
+
+    border-radius: 5px 0 0 5px;
+  }
+
+  button {
+    display: flex;
+
+    background: #0ad658;
+    border: 2px solid #366;
+    border-radius: 5px 0 0 5px;
+
+    color: #fff;
+
+    cursor: pointer;
+
+    span {
+      padding: 1rem;
+    }
+  }
+}
+
+.container:hover {
+  right: 4.8rem;
+
+  strong {
+    right: -6rem;
+    z-index: -9999;
+    transition: 6s;
+  }
+
+  button {
+    border: 2px solid #fff;
+
+    transition: 3s;
+  }
+}

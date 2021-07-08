@@ -1,0 +1,33 @@
+.button {
+    width: 22rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid #ddd;
+    border-bottom: 3px solid #366;
+    border-radius: 20px 3px 0 0;
+
+    background: linear-gradient(20deg, #fff, #fff, #366);
+
+    gap: 5rem;
+
+    cursor: pointer;
+    .span {
+        font-size: 16px;
+        font-weight: bold;
+
+        transition: 0.3s;
+    }
+
+    .icon {
+        background: #fff;
+        border-radius: 50%;
+        width: 30px;
+    }
+}
+
+.button:hover {
+    color: #366;
+}

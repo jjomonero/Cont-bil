@@ -1,0 +1,48 @@
+.informationHeader {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.container {
+  position: static;
+  top: 0;
+  padding: 10px 20px 10px 80px;
+  background: linear-gradient(150deg, #fff 20%, #000, #849e9b);
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+  .buttons {
+    display: flex;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    background: linear-gradient(150deg, #fff 30%, #000, #849e9b);
+
+    .buttons {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .informationHeader {
+    display: none;
+  }
+
+  .container {
+    padding: 10px 20px 10px 20px;
+
+    background: linear-gradient(150deg, #fff 60%, #000, #849e9b);
+
+    .buttons {
+      display: none;
+    }
+  }
+}

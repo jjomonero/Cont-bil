@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+
+  .image {
+    background: #ddd;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-family: Helvetica, sans-serif;
+    padding: 0 1rem;
+
+    color: #366;
+  }
+
+  .children {
+    font-size: 18px;
+    font-weight: lighter;
+
+    color: #666;
+
+    strong {
+      color: #366;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+
+    .image {
+      padding: 20px;
+    }
+  }
+}

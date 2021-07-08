@@ -1,0 +1,23 @@
+.button {
+  max-width: 12rem;
+
+  color: #c0cfcf;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+
+  cursor: pointer;
+
+  transition: 0.4s;
+}
+
+.button:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.container {
+  color: #c0cfcf;
+}
