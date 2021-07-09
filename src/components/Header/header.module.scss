@@ -11,7 +11,7 @@
   position: static;
   top: 0;
   padding: 10px 20px 10px 80px;
-  background: linear-gradient(150deg, #fff 20%, #000, #849e9b);
+  background: linear-gradient(150deg, #fff 20%, #667380, #5c9a89);
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -23,7 +23,7 @@
 
 @media (max-width: 1080px) {
   .container {
-    background: linear-gradient(150deg, #fff 30%, #000, #849e9b);
+    background: linear-gradient(150deg, #fff 30%, #667380, #5c9a79);
 
     .buttons {
       display: none;

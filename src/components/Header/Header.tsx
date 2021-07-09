@@ -16,18 +16,18 @@ export function Header() {
   return (
     <>
       <div className={styles.informationHeader}>
-        <HeaderInformation span="Whatsapp" strong="44998154218">
+        <HeaderInformation span="Whatsapp" strong="(44) 99828-3636">
           <WhatsApp fontSize="small" />
         </HeaderInformation>
         <HeaderInformation span="Atendimento" strong="08:00 - 18:00">
           <AccessTime fontSize="small" />
         </HeaderInformation>
 
-        <HeaderInformation span="E-mail" strong="trabalho@contabilidade.com">
+        <HeaderInformation span="E-mail" strong="Ethoscontabilidade@gmail.com">
           <MailOutline fontSize="small" />
         </HeaderInformation>
 
-        <HeaderInformation span="Localização" strong="Rua dos anjos n°633">
+        <HeaderInformation span="Localização" strong="Campo Mourão, PR">
           <LocationOn fontSize="small" />
         </HeaderInformation>
       </div>

@@ -220,18 +220,18 @@ export function Card(props) {
             <a href="#"> escritório de contabilidade especializado </a>
           </strong>
           no seu segmento e não encontrar em sua cidade. Com o serviço contábil
-          digital, isso não será mais um problema. Aqui na Soluzione Contábil,
+          digital, isso não será mais um problema. Aqui na Ethos Contabilidade,
           nós atendemos você através de sistemas e de forma online. Também com
           encontros presenciais ou em vídeos através da internet. Se precisa
           contratar uma contabilidade especializada em seu segmento, pode contar
           com a Soluzione Contábil. Somos referência em todo o Brasil.Você pode
           querer contratar um escritório de contabilidade especializado no seu
           segmento e não encontrar em sua cidade. Com o serviço contábil
-          digital, isso não será mais um problema. Aqui na Soluzione Contábil,
+          digital, isso não será mais um problema. Aqui na Ethos Contabilidade,
           nós atendemos você através de sistemas e de forma online. Também com
           encontros presenciais ou em vídeos através da internet. Se precisa
           contratar uma contabilidade especializada em seu segmento, pode contar
-          com a Soluzione Contábil. Somos referência em todo o Brasil.
+          com a Ethos Contabilidade. Somos referência em todo o Brasil.
         </CardAtributesHorizontal>
       </div>
     </>

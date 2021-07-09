@@ -9,18 +9,22 @@ export function Apresentation() {
       <div className={styles.description}>
         <h1>Escritório de Contabilidade</h1>
         <p>
-          Somos um escritório de contabilidade que entregamos 100% do que sua
-          empresa precisa para o Governo. Usamos tecnologia para você ter mais
-          tempo e se precisar aprender a gerir melhor sua empresa, nós também te
-          ajudamos. A Apex Legends se preocupa de verdade com seu crescimento. É
-          isso que você busca? Acesse abaixo.
+          Somos um escritório de contabilidade que vem se firmando no mercado de
+          trabalho atual, trazendo inovação e tecnologia para simplificar a vida
+          do empreendedor contando também com especialistas na área de
+          consultoria, assessoria contábil e gestão financeira focado no sucesso
+          do empreendimento fazendo funcionar de forma consistente
+          descomplicando abertura de empresas conduzindo todo seu processo e
+          planejamento tributário focando no seu sucesso.
         </p>
       </div>
 
       <div className={styles.buttons}>
-        <InputApresentation>QUERO ABRIR MINHA EMPRESA</InputApresentation>
-        <InputApresentation>JÁ TENHO UMA EMPRESA</InputApresentation>
-        <InputApresentation>VANTAGENS DE CONTRATAR</InputApresentation>
+        <InputApresentation href="/">
+          QUERO ABRIR MINHA EMPRESA
+        </InputApresentation>
+        <InputApresentation href="/">JÁ TENHO UMA EMPRESA</InputApresentation>
+        <InputApresentation href="/">VANTAGENS DE CONTRATAR</InputApresentation>
       </div>
     </div>
   );

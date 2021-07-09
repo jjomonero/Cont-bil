@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   padding: 6rem 8rem;
+  cursor: default;
 }
 
 .cardContainer {
@@ -12,6 +13,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 120px;
+
+  cursor: default;
 }
 
 @media (max-width: 1080px) {

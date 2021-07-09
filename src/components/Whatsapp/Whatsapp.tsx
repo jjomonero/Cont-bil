@@ -9,7 +9,7 @@ export function Whatsapp(props) {
       <strong>
         <ArrowBackOutlined />
       </strong>
-      <Link href="//wa.me/44998154218" passHref>
+      <Link href="//wa.me/5544998283636" passHref>
         <button>
           <span>Whatsapp </span>
         </button>

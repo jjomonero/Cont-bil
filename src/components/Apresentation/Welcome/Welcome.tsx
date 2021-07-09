@@ -1,5 +1,5 @@
 import styles from "./welcome.module.scss";
-import Logo from "../../../../public/assets/ethos.png";
+import Logo from "../../../../public/assets/oop.png";
 import Image from "next/image";
 
 export function Welcome(props) {
@@ -8,9 +8,10 @@ export function Welcome(props) {
       <Image
         className={styles.image}
         src={Logo}
-        width="850"
-        height="550"
+        width="1108"
+        height="460"
         alt="Welcome"
+        objectFit="cover"
       />
     </div>
   );

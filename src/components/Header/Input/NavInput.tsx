@@ -19,8 +19,8 @@ export function NavInputSelect(props) {
         name="serviços"
         id="serviços"
       >
-        <Link href="#" passHref>
-          <option disabled>Serviços contábeis</option>
+        <Link href="/https://google.com/" passHref>
+          <option>Serviços contábeis</option>
         </Link>
 
         <Link href="#a_contabil" passHref>
@@ -35,7 +35,7 @@ export function NavInputSelect(props) {
           <option>acessoria fiscal</option>
         </Link>
 
-        <Link href="https://google.com" passHref>
+        <Link href="https://google.com/" passHref>
           <option>Abertura de empresa</option>
         </Link>
       </select>
