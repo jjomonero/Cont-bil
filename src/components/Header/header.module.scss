@@ -1,3 +1,7 @@
+.menuResponsive {
+  display: none;
+}
+
 .informationHeader {
   display: flex;
   gap: 1rem;
@@ -32,6 +36,19 @@
 }
 
 @media (max-width: 768px) {
+  .menuResponsive {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 1rem;
+
+    font-size: 14px;
+    font-weight: bolder;
+    color: #366;
+
+    cursor: pointer;
+  }
+
   .informationHeader {
     display: none;
   }

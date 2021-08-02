@@ -2,10 +2,17 @@ import Link from "next/link";
 
 import styles from "./navInput.module.scss";
 
-export function NavInput(props) {
+type NavInputProps = {
+  title: string;
+  href: string;
+};
+
+export function NavInput({ title, href }: NavInputProps) {
   return (
     <div>
-      <button className={styles.button} {...props} />
+      <Link href={href} passHref>
+        <button className={styles.button}> {title}</button>
+      </Link>
     </div>
   );
 }

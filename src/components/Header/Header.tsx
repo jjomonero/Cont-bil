@@ -43,20 +43,28 @@ export function Header() {
         />
 
         <div className={styles.buttons}>
-          <Link href="/" passHref>
-            <NavInput>Home</NavInput>
-          </Link>
+          <NavInput href={"/"} title={"Home"} />
 
-          <Link href="/quem_somos" passHref>
-            <NavInput>Quem Somos</NavInput>
-          </Link>
+          <NavInput href={"/quem_somos"} title={"Quem Somos"} />
 
           <NavInputSelect />
 
-          <Link href="#" passHref>
-            <NavInput>Contato</NavInput>
-          </Link>
+          <NavInput href={"/Contato"} title={"Contato"} />
         </div>
+      </div>
+
+      <div className={styles.menuResponsive}>
+        <Link href="/" passHref>
+          Home
+        </Link>
+
+        <Link href="/quem_somos" passHref>
+          Quem Somos
+        </Link>
+
+        <Link href="/Contato" passHref>
+          Contato
+        </Link>
       </div>
     </>
   );

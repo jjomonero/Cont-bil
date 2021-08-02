@@ -17,7 +17,7 @@ export function Perfil(props) {
           src={Rodrigo}
           title="Rodrigo Lopes Pitach"
           cargo="Presidente"
-          description="Presidente da Ethos Contabilidade, e nas horas vagas degustador de vinho, tintin!"
+          description="Presidente da Ethos Contabilidade, e nas horas vagas (Enófilo) degustador de vinhos, tintin!"
         />
       </div>
 
