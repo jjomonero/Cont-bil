@@ -50,7 +50,7 @@ export function Card(props) {
           icon="image"
           src={Admin_1}
         >
-          A Methos Contabilidade oferece
+          A Ethos Contabilidade oferece
           <strong>
             <a href="#"> serviços contábeis para micro empresas</a>
           </strong>
@@ -69,8 +69,8 @@ export function Card(props) {
           Uma Consultoria empresarial pode ser o elemento que falta para que sua
           empresa alcance o sucesso. Especialistas que conhecem os desafios das
           microempresas e pequenas empresas podem ajudá-las a crescer e se
-          posicionar. A Methos Contabilidade vai levar sua empresa para o
-          próximo nível de organização e rentabilidade. Conheça sobre nossa
+          posicionar. A Ethos Contabilidade vai levar sua empresa para o próximo
+          nível de organização e rentabilidade. Conheça sobre nossa
           <strong>
             <a href="#"> consultoria contábil </a>
           </strong>
@@ -84,7 +84,7 @@ export function Card(props) {
           icon="image"
           src={Admin_8}
         >
-          A Soluzione lhe ajuda com o controle das finanças e a análise dos
+          A Ethos lhe ajuda com o controle das finanças e a análise dos
           resultados financeiros de sua empresa. A gestão financeira combina
           processo, foco e disciplina e lhe ajuda a controlar e utilizar os
           recursos financeiros da melhor forma. Além disso, fornece informações
@@ -94,18 +94,17 @@ export function Card(props) {
 
         <CardAtributes
           id=""
-          title="Acessoria contábil"
+          title="Assessoria contábil"
           strong=""
           icon="image"
           src={Admin_4}
         >
-          Além de realizar o planejamento inicial com o empreendedor, a
-          Soluzione também conduz todo o processo de abertura da empresa. Desde
-          a coleta de informações e documentação até a emissão da primeira nota
-          fiscal, a Soluzione dá todo o suporte ao novo empresário. Por meio de
-          estudos de viabilidade, determina a estrutura societária e o regime
-          tributário mais adequados, sempre com vistas à economia do
-          empreendedor.
+          Além de realizar o planejamento inicial com o empreendedor, a Ethos
+          também conduz todo o processo de abertura da empresa. Desde a coleta
+          de informações e documentação até a emissão da primeira nota fiscal, a
+          Ethos dá todo o suporte ao novo empresário. Por meio de estudos de
+          viabilidade, determina a estrutura societária e o regime tributário
+          mais adequados, sempre com vistas à economia do empreendedor.
         </CardAtributes>
 
         <CardAtributes
@@ -118,8 +117,8 @@ export function Card(props) {
           Empresários de sucesso sabem a importância de ter uma contabilidade
           para sua empresa. Ter ajuda especializada certamente encurtará seu
           trajeto rumo ao sucesso. Não tente trilhar esse caminho sozinho. Fale
-          agora com um dos consultores da Soluzione e descubra todas as formas
-          como nossa empresa pode te ajudar.
+          agora com um dos consultores da Ethos e descubra todas as formas como
+          nossa empresa pode te ajudar.
         </CardAtributes>
 
         <CardAtributes
@@ -129,7 +128,7 @@ export function Card(props) {
           icon="image"
           src={Admin_6}
         >
-          Mesmo as pequenas empresas, tem a possibilidade re pagar menos
+          Mesmo as pequenas empresas, tem a possibilidade de pagar menos
           impostos de forma legal. Nós sabemos quanto é difícil pagar uma carga
           tributária alta. Nós também sofremos com isso. Não deixe de contratar
           nossa consultoria para reduzir sua carga tributária.
@@ -224,7 +223,7 @@ export function Card(props) {
           nós atendemos você através de sistemas e de forma online. Também com
           encontros presenciais ou em vídeos através da internet. Se precisa
           contratar uma contabilidade especializada em seu segmento, pode contar
-          com a Soluzione Contábil. Somos referência em todo o Brasil.Você pode
+          com a Ethos Contabilidade. Somos referência em todo o Brasil.Você pode
           querer contratar um escritório de contabilidade especializado no seu
           segmento e não encontrar em sua cidade. Com o serviço contábil
           digital, isso não será mais um problema. Aqui na Ethos Contabilidade,

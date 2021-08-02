@@ -11,8 +11,9 @@ export function Footer(props) {
       <div className={styles.container}>
         <div className={styles.description}>
           <FooterDescription title="Campo Mourão, PR" strong="">
-            Av. Irmãos Pereira <br />
-            670 - Centro 87301-010 <br />
+            Av. Comendador Norberto Marcontes <br />
+            733 - Centro <br />
+            CEP: 87303-100 <br />
             E-mail:<strong> Methos@contabilidade.com</strong>
           </FooterDescription>
         </div>
