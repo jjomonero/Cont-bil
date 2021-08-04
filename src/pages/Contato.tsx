@@ -53,8 +53,6 @@ export default function Contato(props) {
         />
 
         <textarea
-          cols="79"
-          rows="2"
           placeholder="Mensagem"
           style={{
             padding: "10px",
